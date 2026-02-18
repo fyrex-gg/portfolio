@@ -20,10 +20,9 @@ function Contact() {
   }
 
   const socialLinks = [
-    { name: 'GitHub', url: 'https://github.com' },
-    { name: 'LinkedIn', url: 'https://linkedin.com' },
-    { name: 'Twitter', url: 'https://twitter.com' },
-    { name: 'Email', url: 'mailto:hello@example.com' },
+    { name: 'GitHub', url: 'https://github.com/fyrex-gg' },
+    { name: 'LinkedIn', url: 'https://linkedin.com/in/yavor-savov' },
+    { name: 'Email', url: 'mailto:yavor.ssavov@gmail.com' },
   ]
 
   return (
@@ -68,7 +67,7 @@ function Contact() {
           </m.div>
 
           <m.div className="cta-large" variants={fadeInUp}>
-            <a href="mailto:hello@example.com" className="btn-large interactive">
+            <a href="mailto:yavor.ssavov@gmail.com" className="btn-large interactive">
               Start a Conversation
             </a>
           </m.div>
