@@ -77,26 +77,32 @@ function Hero() {
           </a>
         </m.div>
 
-        <m.div className="hero-scroll" variants={textVariants}>
-          <div className="scroll-indicator">
-            <span>Scroll to explore</span>
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M10 4L10 16M10 16L16 10M10 16L4 10"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </m.div>
+      </m.div>
+
+      <m.div
+        className="hero-scroll"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.2, duration: 0.8 }}
+      >
+        <div className="scroll-indicator">
+          <span>Scroll to explore</span>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 4L10 16M10 16L16 10M10 16L4 10"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
       </m.div>
     </section>
   )
