@@ -33,10 +33,6 @@ function Navigation() {
       transition={{ duration: 0.5 }}
     >
       <div className="nav-container">
-        <a href="#" className="logo interactive">
-          <span className="logo-text">Portfolio</span>
-        </a>
-
         {/* Desktop Navigation */}
         <div className="nav-links desktop">
           {navLinks.map((link) => (
