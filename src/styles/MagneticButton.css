@@ -1,0 +1,28 @@
+.magnetic-button {
+  position: relative;
+  display: inline-block;
+  cursor: none;
+}
+
+.magnetic-button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Tilt card glare effect */
+.tilt-card {
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.tilt-card > * {
+  transform: translateZ(20px);
+}
+
+/* Vanilla Tilt Glare */
+.js-tilt-glare {
+  border-radius: inherit;
+}

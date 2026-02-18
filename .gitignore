@@ -1,5 +1,10 @@
 # Dependencies
 node_modules/
+package-lock.json
+
+# Build output
+dist/
+build/
 
 # Playwright
 /test-results/
@@ -22,3 +27,15 @@ Thumbs.db
 # Environment variables
 .env
 .env.local
+
+.vercel
+
+# Misc
+nul
+*.png
+.playwright-mcp/
+DEPLOYMENT.md
+FEATURES.md
+INTERACTIVE_FEATURES.md
+QUICKSTART.md
+SPLINE_INTEGRATION.md
